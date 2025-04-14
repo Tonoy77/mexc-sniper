@@ -27,7 +27,7 @@ def main():
             symbol = input("Token (e.g. ABCUSDT): ")
             amount = float(input("Buy amount (USDT): "))
             tp = float(input("Take-profit %: "))
-            tstr = input("Buy time (YYYY-MM-DD HH:MM:SS UTC): ")
+            tstr = input("Buy time (YYYY-MM-DD HH:MM:SS UTC+6): ")
             bot.snipe_listing(symbol, amount, tp, tstr)
 
         elif choice == "2":
