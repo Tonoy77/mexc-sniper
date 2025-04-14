@@ -1,3 +1,4 @@
 pymexc  # MEXC API SDK for HTTP and WebSocket clients
 requests         # HTTP requests (likely used internally by mexc-sdk-python)
 websocket-client # WebSocket support (if not bundled with mexc-sdk-python)
+pytz
